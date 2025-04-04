@@ -98,6 +98,8 @@
 <script setup lang="ts">
 import { ref } from 'vue';
 
+
+
 const getname = ref<string>(""); 
 const getage = ref<number>(0); 
 const data = ref<any[]>([]); 
@@ -182,4 +184,5 @@ const putData = async ()=> {
   })
 
 }
+
 </script>
